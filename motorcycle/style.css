@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  font-size: 50px;
+}
+
+div {
+  flex: none;
+  margin: 2%;
+  text-align: center;
+}
+
+.left {
+  width: 30%;
+  background-color: #cee8b0;
+}
+
+.right {
+  background-color: #cee8b0;
+  width: 60%;
+  height: 500px;
+}
+
+.pic {
+  width: 60%;
+  height: 400px;
+  background-color: #cee8b0;
+  background-image: url(img/bike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.row {
+  height: 25%;
+  margin: 0px;
+  display: flex;
+}
+
+.col {
+  flex: none;
+  width: 16%;
+  margin: 0px;
+}
