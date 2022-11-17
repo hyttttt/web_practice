@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(143, 171, 217);
+}
+
+.top-banner {
+  text-align: center;
+  font-size: 80px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: aliceblue;
+  margin: 0;
+
+  height: 20%;
+}
+
+.main_body {
+  display: flex;
+  margin: 0;
+
+  height: 80%;
+}
+
+.control {
+  width: 30%;
+  border-radius: 10px;
+  flex: none;
+  background-color: aliceblue;
+  margin: 0 1% 1% 2%;
+}
+
+.point-info {
+  height: 80%;
+}
+
+.btn-area {
+  display: flex;
+  text-align: right;
+  height: 20%;
+  justify-content: center;
+}
+
+.btn {
+  margin: 2%;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 20px;
+  font-family: Georgia;
+  height: 65%;
+  width: 40%;
+  background-color: rgb(143, 171, 217);
+  font-weight: bold;
+  color: aliceblue;
+  flex: none;
+}
+
+.draw {
+  width: 58%;
+  border-radius: 10px;
+  flex: none;
+  background-color: aliceblue;
+  margin: 0 1% 1% 1%;
+  padding: 3%;
+  text-align: center;
+}
+
+.jxgbox {
+  width: 900px;
+  height: 450px;
+}
