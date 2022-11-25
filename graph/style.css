@@ -4,13 +4,13 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(143, 171, 217);
+  font-family: Georgia;
+  font-weight: bold;
 }
 
 .top-banner {
   text-align: center;
   font-size: 80px;
-  font-family: Georgia;
-  font-weight: bold;
   color: aliceblue;
   margin: 0;
 
@@ -32,8 +32,12 @@ body {
   margin: 0 1% 1% 2%;
 }
 
-.point-info {
-  height: 80%;
+.select-info {
+  height: 72%;
+  margin: 4%;
+  font-size: large;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .btn-area {
@@ -48,13 +52,13 @@ body {
   border-radius: 5px;
   border: 0px;
   font-size: 20px;
-  font-family: Georgia;
   height: 65%;
   width: 40%;
   background-color: rgb(143, 171, 217);
-  font-weight: bold;
   color: aliceblue;
   flex: none;
+  font-family: Georgia;
+  font-weight: bold;
 }
 
 .draw {
